@@ -15,12 +15,11 @@ struct SWFilmsData: Decodable   {
 struct SWFilms: Decodable {
     let title: String
     let openingCrawl: String
-    
-    
-}
-
-enum codingKeys: String, CodingKey  {
-    case openingCrawl = "opening_crawl"
+   
+    enum CodingKeys: String, CodingKey  {
+        case title
+        case openingCrawl = "opening_crawl"
+    }
 }
 
 extension SWFilmsData   {

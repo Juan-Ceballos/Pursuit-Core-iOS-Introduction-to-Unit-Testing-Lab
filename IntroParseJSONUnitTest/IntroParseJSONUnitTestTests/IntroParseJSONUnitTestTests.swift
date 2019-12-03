@@ -67,10 +67,20 @@ class IntroParseJSONUnitTestTests: XCTestCase {
     func testParseFilmsToTableView()    {
         let filename = "SWFilms"
         let ext = "json"
-        let data = Bundle.ParseJSONData(filename: filename, ext: ext)
         
         let films = SWFilmsData.getFilms()
         
         XCTAssertGreaterThan(films.count, 0)
+    }
+    
+    func testgetFirstFilm() {
+        let filename = "SWFilms"
+        let ext = "json"
+        let films = SWFilmsData.getFilms()
+        let expectedFirstFilm = "A New Hope"
+        
+        let firstFilm = films.first?.title
+        
+        XCTAssertEqual(firstFilm, expectedFirstFilm)
     }
 }
