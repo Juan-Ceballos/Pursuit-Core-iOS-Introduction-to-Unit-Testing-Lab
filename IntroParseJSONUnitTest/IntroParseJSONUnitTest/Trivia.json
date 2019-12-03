@@ -1,0 +1,124 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Science%20%26%20Nature",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What%20is%20the%20chemical%20makeup%20of%20water%3F",
+            "correct_answer": "H20",
+            "incorrect_answers": [
+                "C12H6O2",
+                "CO2",
+                "H"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Adolf%20Hitler%20was%20born%20on%20which%20date%3F",
+            "correct_answer": "April%2020%2C%201889",
+            "incorrect_answers": [
+                "June%2012%2C%201889",
+                "February%206%2C%201889",
+                "April%2016%2C%201889"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which%20of%20these%20African%20countries%20list%20%22Spanish%22%20as%20an%20official%20language%3F",
+            "correct_answer": "Equatorial%20Guinea",
+            "incorrect_answers": [
+                "Guinea",
+                "Cameroon",
+                "Angola"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Japanese%20Anime%20%26%20Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In%20%22A%20Certain%20Scientific%20Railgun%22%2C%20how%20many%20%22sisters%22%20did%20Accelerator%20have%20to%20kill%20to%20achieve%20the%20rumored%20level%206%3F",
+            "correct_answer": "20%2C000",
+            "incorrect_answers": [
+                "128",
+                "10%2C000",
+                "5%2C000"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which%20team%20won%202014%20FIFA%20World%20Cup%20in%20Brazil%3F",
+            "correct_answer": "Germany",
+            "incorrect_answers": [
+                "Argentina",
+                "Brazil",
+                "Netherlands"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "Japan%20has%20left-hand%20side%20traffic.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What%20is%20Canada%27s%20largest%20island%3F",
+            "correct_answer": "Baffin%20Island",
+            "incorrect_answers": [
+                "Prince%20Edward%20Island",
+                "Vancouver%20Island",
+                "Newfoundland"
+            ]
+        },
+        {
+            "category": "Science%3A%20Gadgets",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When%20was%20the%20iPhone%20released%3F",
+            "correct_answer": "2007",
+            "incorrect_answers": [
+                "2005",
+                "2006",
+                "2004"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which%20classical%20composer%20wrote%20the%20%22Moonlight%20Sonata%22%3F",
+            "correct_answer": "Ludvig%20Van%20Beethoven",
+            "incorrect_answers": [
+                "Chief%20Keef",
+                "Wolfgang%20Amadeus%20Mozart",
+                "Johannes%20Brahms"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which%20of%20these%20is%20NOT%20one%20of%20Donald%20Trump%27s%20children%3F",
+            "correct_answer": "Julius",
+            "incorrect_answers": [
+                "Donald%20Jr.",
+                "Ivanka",
+                "Eric"
+            ]
+        }
+    ]
+}
+
