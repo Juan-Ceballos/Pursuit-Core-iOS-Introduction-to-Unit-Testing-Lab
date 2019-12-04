@@ -24,6 +24,8 @@
 		3E5607AB2396538F0014B0D0 /* SWFilms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5607AA2396538F0014B0D0 /* SWFilms.swift */; };
 		3E5607AD239718320014B0D0 /* SWFilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5607AC239718320014B0D0 /* SWFilmViewController.swift */; };
 		3E5607AF23971C5B0014B0D0 /* DetailedSWFilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5607AE23971C5B0014B0D0 /* DetailedSWFilmViewController.swift */; };
+		3E5607B1239723A50014B0D0 /* TriviaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5607B0239723A50014B0D0 /* TriviaData.swift */; };
+		3E5607B3239723C30014B0D0 /* DetailedTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5607B2239723C30014B0D0 /* DetailedTriviaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		3E5607AA2396538F0014B0D0 /* SWFilms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWFilms.swift; sourceTree = "<group>"; };
 		3E5607AC239718320014B0D0 /* SWFilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWFilmViewController.swift; sourceTree = "<group>"; };
 		3E5607AE23971C5B0014B0D0 /* DetailedSWFilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedSWFilmViewController.swift; sourceTree = "<group>"; };
+		3E5607B0239723A50014B0D0 /* TriviaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaData.swift; sourceTree = "<group>"; };
+		3E5607B2239723C30014B0D0 /* DetailedTriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedTriviaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +115,9 @@
 				3E5607AA2396538F0014B0D0 /* SWFilms.swift */,
 				3E5607AC239718320014B0D0 /* SWFilmViewController.swift */,
 				3E5607AE23971C5B0014B0D0 /* DetailedSWFilmViewController.swift */,
+				3E5607B0239723A50014B0D0 /* TriviaData.swift */,
 				3E56077E239625E80014B0D0 /* TriviaViewController.swift */,
+				3E5607B2239723C30014B0D0 /* DetailedTriviaViewController.swift */,
 				3E560780239625E80014B0D0 /* Main.storyboard */,
 				3E560783239625EB0014B0D0 /* Assets.xcassets */,
 				3E560785239625EB0014B0D0 /* LaunchScreen.storyboard */,
@@ -236,6 +242,7 @@
 				3E5607AF23971C5B0014B0D0 /* DetailedSWFilmViewController.swift in Sources */,
 				3E56077F239625E80014B0D0 /* TriviaViewController.swift in Sources */,
 				3E5607A923964D760014B0D0 /* JokeDetailedViewController.swift in Sources */,
+				3E5607B3239723C30014B0D0 /* DetailedTriviaViewController.swift in Sources */,
 				3E5607A723963D7E0014B0D0 /* JokesViewController.swift in Sources */,
 				3E5607A5239632520014B0D0 /* ProgrammingJokes.swift in Sources */,
 				3E56077B239625E80014B0D0 /* AppDelegate.swift in Sources */,
@@ -243,6 +250,7 @@
 				3E56077D239625E80014B0D0 /* SceneDelegate.swift in Sources */,
 				3E5607AD239718320014B0D0 /* SWFilmViewController.swift in Sources */,
 				3E5607A323962A8E0014B0D0 /* Bundle+Extensions.swift in Sources */,
+				3E5607B1239723A50014B0D0 /* TriviaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

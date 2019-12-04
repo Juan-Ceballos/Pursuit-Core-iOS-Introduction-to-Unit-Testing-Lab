@@ -33,20 +33,12 @@ class IntroParseJSONUnitTestTests: XCTestCase {
     }
     
     func testParsingJokesToTableView()   {
-        let filename = "Jokes"
-        let ext = "json"
-        
-        let data = Bundle.ParseJSONData(filename: filename, ext: ext)
-        
         let jokes = ProgrammingJokes.getJokes()
         
         XCTAssertGreaterThan(jokes.count, 0)
     }
     
     func testGetFirstJoke() {
-        let filename = "Jokes"
-        let ext = "json"
-        let data = Bundle.ParseJSONData(filename: filename, ext: ext)
         let jokes = ProgrammingJokes.getJokes()
         let expectedFirstSetUp = "There are 10 types of people in this world..."
         
@@ -65,22 +57,40 @@ class IntroParseJSONUnitTestTests: XCTestCase {
     }
     
     func testParseFilmsToTableView()    {
-        let filename = "SWFilms"
-        let ext = "json"
-        
         let films = SWFilmsData.getFilms()
         
         XCTAssertGreaterThan(films.count, 0)
     }
     
     func testgetFirstFilm() {
-        let filename = "SWFilms"
-        let ext = "json"
         let films = SWFilmsData.getFilms()
         let expectedFirstFilm = "A New Hope"
         
         let firstFilm = films.first?.title
         
         XCTAssertEqual(firstFilm, expectedFirstFilm)
+    }
+    
+    func testTriviaData()   {
+        let filename = "Trivia"
+        let ext = "json"
+        let data = Bundle.ParseJSONData(filename: filename, ext: ext)
+        
+        XCTAssertNotNil(data)
+    }
+    
+    func testParseTriviaToTableView()   {
+        let trivias = TriviaData.getTrivia()
+        
+        XCTAssertGreaterThan(trivias.count, 0)
+    }
+    
+    func testFirstQuestion()    {
+        let trivias = TriviaData.getTrivia()
+        let expectedFirstQuestion = "What%20is%20the%20chemical%20makeup%20of%20water%3F"
+        
+        let firstQuestion = trivias.first?.question
+        
+        XCTAssertEqual(expectedFirstQuestion, firstQuestion)
     }
 }
